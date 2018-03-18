@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.math.BigDecimal;
 
 /**
- * Created by yfbu on 2018/3/8.
+ * Created by Buguoliang on 2018/3/8.
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
