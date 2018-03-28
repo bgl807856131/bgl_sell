@@ -15,5 +15,5 @@ public class ResultVO<T> {
     private String msg;
 
     /**具体内容*/
-    private T date;
+    private T data;
 }
