@@ -11,7 +11,7 @@ public enum PayStatusEnum {
     SUCCESS(1, "支付成功")
     ;
 
-    private int code;
+    private Integer code;
 
     private String message;
 
