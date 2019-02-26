@@ -31,7 +31,7 @@ public class OrderDTO {
     private BigDecimal orderAmount;
 
     /** 订单状态, 默认为0新下单. */
-    private Integer orderStatus;
+    private Integer orderStatus = 0;
 
     /** 支付状态, 默认为0未支付. */
     private Integer payStatus;

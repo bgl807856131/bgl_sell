@@ -15,7 +15,7 @@ public class UUIDUtil {
             count.set(1);
         }
         int num = count.incrementAndGet();
-        long time = System.currentTimeMillis() * 100;
+        long time = System.currentTimeMillis() * 1000;
         return String.valueOf(time + num);
     }
 
@@ -26,7 +26,7 @@ public class UUIDUtil {
     }
 
     public static void main(String[] args) {
-        for(int i = 0; i < 1000; i++) {
+        for(int i = 0; i < 100; i++) {
             System.out.println(genUniqueId());
         }
 

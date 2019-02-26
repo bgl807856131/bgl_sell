@@ -20,4 +20,8 @@ public class SellException extends RuntimeException {
         super(message);
         this.code = code;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> sellv1.0
