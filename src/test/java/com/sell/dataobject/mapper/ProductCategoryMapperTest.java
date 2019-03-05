@@ -1,8 +1,7 @@
 package com.sell.dataobject.mapper;
 
-import com.sell.dataobject.ProductCategory;
+import com.bgl.sell.dataobject.ProductCategory;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.http.util.Asserts;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,7 +13,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static org.junit.Assert.*;
 
 /**
  * Created by buguoliang on 2018/5/27.

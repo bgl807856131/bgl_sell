@@ -1,6 +1,6 @@
 package com.sell.dataobject.mapper;
 
-import com.sell.dataobject.ProductCategory;
+import com.bgl.sell.dataobject.ProductCategory;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;
